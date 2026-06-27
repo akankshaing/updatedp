@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact — Prof. (Dr.) Sanjay Rajpal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body data-theme="light">
+<nav id="navbar"><div class="nav-inner">
+  <a href="index.html" class="nav-brand"><span class="brand-prefix">Prof. (Dr.)</span><span class="brand-name">Sanjay Rajpal</span></a>
+  <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="journey.html">Journey</a></li>
+    <li><a href="books.html">Books</a></li><li><a href="vision.html">Vision</a></li><li><a href="thoughts.html">Thoughts</a></li>
+    <li><a href="social.html">Social</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="theme-toggle" aria-label="Toggle theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</div></nav>
+
+<div class="page-header">
+  <div class="container">
+    <div class="page-eyebrow">Let's Connect</div>
+    <h1>Begin a meaningful<br/>conversation.</h1>
+    <p>Whether you're looking to collaborate, extend an invitation to speak, explore advisory roles, or simply connect — I welcome the conversation.</p>
+  </div>
+</div>
+
+<section class="contact-section reveal">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Let's explore how we can work together.</h2>
+        <p>Over two decades, I have had the privilege of collaborating with organizations, institutions, academics, and leaders across healthcare and beyond. Every meaningful partnership began with a single conversation.</p>
+        <div class="contact-note">
+          <p>"If through my work, thoughts, leadership, or writing I can inspire even a few people to lead with greater purpose, compassion, and courage — I will consider my journey meaningful."</p>
+        </div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:0.8rem;margin-top:0.5rem;">
+          <li style="display:flex;align-items:center;gap:0.75rem;font-size:0.9rem;color:var(--text-secondary);"><span style="width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;"></span>Keynote speaking at healthcare &amp; leadership conferences</li>
+          <li style="display:flex;align-items:center;gap:0.75rem;font-size:0.9rem;color:var(--text-secondary);"><span style="width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;"></span>Strategic consulting for healthcare organisations</li>
+          <li style="display:flex;align-items:center;gap:0.75rem;font-size:0.9rem;color:var(--text-secondary);"><span style="width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;"></span>Academic mentorship and faculty engagements</li>
+          <li style="display:flex;align-items:center;gap:0.75rem;font-size:0.9rem;color:var(--text-secondary);"><span style="width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;"></span>Policy and advisory roles for institutions</li>
+          <li style="display:flex;align-items:center;gap:0.75rem;font-size:0.9rem;color:var(--text-secondary);"><span style="width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;"></span>Collaborative writing and thought leadership</li>
+        </ul>
+        <!-- ✏️ Replace with a warm / professional portrait or handshake / meeting photo -->
+        <div style="margin-top:2rem;border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:4/3;">
+          <img
+            src="images/contact-photo.jpg"
+            alt="Prof. (Dr.) Sanjay Rajpal — Available for collaboration, keynotes and advisory"
+            style="width:100%;height:100%;object-fit:cover;display:block;"
+          />
+        </div>
+      </div>
+      <div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" placeholder="Full name" required/></div>
+          <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="your@email.com" required/></div>
+          <div class="form-group"><label for="org">Organisation (optional)</label><input type="text" id="org" name="org" placeholder="Your company or institution"/></div>
+          <div class="form-group">
+            <label for="purpose">Purpose of Enquiry</label>
+            <select id="purpose" name="purpose">
+              <option value="">Select one...</option>
+              <option>Keynote / Speaking Invitation</option>
+              <option>Strategic Consulting</option>
+              <option>Academic / Faculty Engagement</option>
+              <option>Advisory Role</option>
+              <option>Collaboration / Partnership</option>
+              <option>General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="message">Your Message</label><textarea id="message" name="message" placeholder="Tell me about your project, invitation, or how you'd like to connect..." required></textarea></div>
+          <button type="submit" class="btn-primary" style="width:100%;text-align:center;">Send Message</button>
+        </form>
+        <div id="form-success" style="display:none;text-align:center;padding:3rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);">
+          <div style="font-family:var(--font-serif);font-size:2.5rem;color:var(--gold);margin-bottom:1rem;">✓</div>
+          <div style="font-family:var(--font-serif);font-size:1.4rem;color:var(--text-primary);margin-bottom:0.75rem;">Thank you for reaching out.</div>
+          <p style="font-size:0.9rem;color:var(--text-secondary);line-height:1.72;">Your message has been received. I look forward to connecting with you and will be in touch shortly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="philosophy-strip reveal">
+  <div class="container">
+    <div class="philosophy-quote">
+      <div class="quote-mark">"</div>
+      <blockquote>Success may give recognition. But service creates significance. And significance is what builds lasting legacy.</blockquote>
+      <cite>— Prof. (Dr.) Sanjay Rajpal</cite>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container">
+  <div class="footer-inner">
+    <div><div class="footer-name">Prof. (Dr.) Sanjay Rajpal</div><div class="footer-tagline">Healthcare Leader · Author · Educator</div></div>
+  </div>
+  <div class="footer-bottom"><span>© 2025 Prof. (Dr.) Sanjay Rajpal. All rights reserved.</span><span>Designed and developed by <a href="https://portfolio-zeta-six-towxatix7g.vercel.app/" target="_blank" rel="noopener">Akanksha Singh</a></span></div>
+</div></footer>
+<script src="main.js"></script>
+</body></html>
