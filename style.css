@@ -1279,7 +1279,10 @@ footer {
   animation: galleryRight 44s linear infinite;
 }
 
-/* Gallery scrolls forever — no pause on hover */
+/* Pause the scroll while the user is hovering over either row */
+.gallery-track-wrap:hover .gallery-track {
+  animation-play-state: paused;
+}
 
 @keyframes galleryLeft {
   from { transform: translateX(0); }
